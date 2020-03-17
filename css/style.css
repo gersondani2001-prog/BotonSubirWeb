@@ -1,0 +1,53 @@
+/*Codigo de estilo en css3 estilos en cascada*/
+
+/* body margin, padding y estilo de border */
+*, body{
+    /*  */
+    padding: 0 !important;
+    margin: 0 !important;
+    /* compatibilidad */
+    box-sizing: border-box;
+    /* edge - safari */
+    -webkit-box-sizing: border-box;
+    /*mozilla - firefox*/
+    -moz-box-sizing: border-box;
+    /*opera*/
+    -o-box-sizing: border-box;
+}
+/*menu lateral*/
+/*espacio container*/
+.espacio{
+    background: blue;
+    height:5000px !important;
+}
+/*estilo h1*/
+.estilosh1menu{
+    color: red;
+    font-size: 35px !important;
+    font-weight: bold !important;
+}
+/* menu  */
+.navbar{
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    transition: .5s;  
+}
+/*boton subir*/
+.ir-arriba {
+	display:none;
+	padding:20px !important;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+    right:20px;
+    font-size: 15px !important;
+    z-index: 1 !important;
+    border-radius: 100% !important;
+}
+
